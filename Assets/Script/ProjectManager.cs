@@ -46,7 +46,9 @@ public class ProjectManager : MonoBehaviour
 
             if(Input.GetKeyDown(KeyCode.Mouse0))
             {
-
+                GameObject objBall = Instantiate(fabBall, shootPoint.position, Quaternion.identity);
+                Rigidbody rigid = objBall.GetComponent<Rigidbody>();
+                rigid.velocity = vo;
             }
         }
         else

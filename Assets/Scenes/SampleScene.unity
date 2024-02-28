@@ -705,7 +705,7 @@ MonoBehaviour:
   trsCannon: {fileID: 587677577}
   distanceCannon: 2
   time: 1
-  ratio: 0.5
+  ratio: 0.35
 --- !u!4 &1721345767
 Transform:
   m_ObjectHideFlags: 0
